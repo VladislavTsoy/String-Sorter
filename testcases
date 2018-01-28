@@ -1,0 +1,37 @@
+Test Cases:
+
+Case 1.
+	input:  ./stringsorter "Zam borp nUtter butter" test
+	output: ERROR: invalid number of arguments (USAGE: ./stringsorter "aaaa bbb cc")
+
+Case 2. 
+	input:  ./stringsorter
+	output: ERROR: invalid number of arguments (USAGE: ./stringsorter "aaaa bbb cc")
+
+Case 3. 
+	input:  ./stringsorter "Zam borp nUtter butter"
+	output: Zam 
+		borp 
+		butter 
+		nUtter 
+Case 4. 
+	input:  ./stringsorter "Frobozz blab brop Frobozz"
+	output: Frobozz 
+		Frobozz 
+		blab 
+		brop
+Case 5.
+	input:  ./stringsorter "hello10293810293out*0192^there10091"
+	output: hello 
+		out 
+		there 
+Case 6.
+	input:  ./stringsorter "aand-=%aanD#$+*)^Cand%AAND..AanD45AANd"
+	output: AAND 
+		AANd 
+		AanD 
+		Cand 
+		aanD 
+		aand 
+
+
