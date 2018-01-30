@@ -33,5 +33,12 @@ Case 6.
 		Cand 
 		aanD 
 		aand 
+Case 7. 
+input:  ./stringsorter "hello_234This12%Is%$#a((*testcase"
+	output: Is 
+		This 
+		a 
+		hello
+		testcase 
 
 
